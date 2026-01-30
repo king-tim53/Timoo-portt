@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Timofe Segun-Ojo - Technical Project Manager & Frontend Developer Portfolio">
+  <title>Timofe Segun-Ojo | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
+
+  <!-- 1. Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- 2. Scroll Progress Bar -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="progressBar"></div>
+  </div>
+
+  <!-- 3. Custom Cursor -->
+  <div class="cursor-dot" data-cursor-dot></div>
+  <div class="cursor-outline" data-cursor-outline></div>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">T.S.O<span class="dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="fas fa-bars text-light"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#specialization">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#internship">Internship</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Exp</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="#leadership">Lead</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certification">Certs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#design">Design</a></li>
+          <li class="nav-item ms-lg-3 d-none d-lg-block">
+            <a class="nav-link" href="https://linkedin.com/in/YOUR-PROFILE" target="_blank">
+                <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+        </li>
+          <li class="nav-item ms-lg-3"><a class="nav-link btn-contact" href="#contact">Hire Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center flex-column-reverse flex-lg-row">
+        <!-- Text Content -->
+        <div class="col-lg-7 mt-5 mt-lg-0" data-aos="fade-right">
+          <div class="badge-custom"><i class="fas fa-bolt text-warning"></i> Open for opportunities</div>
+          <h1 class="display-name">Timofe <span class="text-gradient">Segun-Ojo</span></h1>
+          <h2 class="typewriter-text">I am a <span class="txt-type" data-wait="3000" data-words='["Project Manager", "IoT Architect", "Operation Manager", "Frontend Dev"]'></span></h2>
+          <p class="hero-desc">
+            An entry-level developer from Lagos bridging the gap between technical execution and strategic management. I build IoT solutions, manage complex programs, and craft frontend experiences.
+          </p>
+          
+          <div class="hero-btns mt-4">
+            <a href="#contact" class="btn btn-primary-custom me-3">Let's Talk <i class="fas fa-arrow-right"></i></a>
+            <a href="Timofe-Segun-ojo-FlowCV-Resume-20251121.pdf" download class="btn btn-outline-custom">Download CV <i class="fas fa-download"></i></a>
+          </div>
+
+          <div class="hero-stats mt-5 d-flex gap-4">
+            <div><h4 class="text-white mb-0">2+</h4><small class="text-mute">Years Exp</small></div>
+            <div><h4 class="text-white mb-0">10+</h4><small class="text-mute">Projects</small></div>
+            <div><h4 class="text-white mb-0">8+</h4><small class="text-mute">Certs</small></div>
+          </div>
+        </div>
+        
+        <!-- Image Content -->
+        <div class="col-lg-5 text-center position-relative" data-aos="zoom-in">
+          <div class="blob-bg"></div>
+          <div class="image-wrapper">
+            <img src="1000165262.jpg" alt="Timofe Profile" class="hero-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gradmate-preview" class="py-5 position-relative">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          
+          <div class="gradmate-card position-relative overflow-hidden" data-aos="fade-up" data-aos-duration="1200">
+            
+            <div class="glow-orb"></div>
+            
+            <div class="row align-items-center position-relative z-2">
+              <div class="col-md-6 p-4 p-lg-5">
+                <div class="d-flex align-items-center mb-3">
+                  <span class="badge bg-primary text-dark fw-bold me-2 px-3 py-2">FLAGSHIP PROJECT</span>
+                  <span class="coming-soon-text"><i class="fa-solid fa-circle fa-xs me-2 text-danger animate-pulse"></i>Launching Soon</span>
+                </div>
+                
+                <h2 class="display-5 fw-bold mb-3 text-white">GradMate Hub</h2>
+                
+                <p class="text-white lead mb-4">
+                  A comprehensive academic tracking ecosystem for Nigerian universities. Digitizing SIWES, Teaching Practice, and Project Defense in one seamless platform.
+                </p>
+  
+                <div class="d-flex flex-wrap gap-2 mb-4">
+                  <span class="tech-pill"><i class="fa-brands fa-js me-1"></i> Vanilla JS</span>
+                  <span class="tech-pill"><i class="fa-solid fa-fire me-1"></i> Firebase BaaS</span>
+                  <span class="tech-pill"><i class="fa-solid fa-database me-1"></i> Firestore</span>
+                </div>
+  
+                <ul class="gradmate-features mb-4">
+                  <li><i class="fa-solid fa-check text-primary me-2"></i> Real-time Geofencing & Logging</li>
+                  <li><i class="fa-solid fa-check text-primary me-2"></i> Role-Based Access (Student/Supervisor)</li>
+                  <li><i class="fa-solid fa-check text-primary me-2"></i> Automated Grading & Reports</li>
+                </ul>
+  
+                <div class="gradmate-countdown d-flex gap-3 mb-4">
+                    <div class="timer-block">
+                        <span id="gm-days" class="timer-num">00</span>
+                        <span class="timer-label">DAYS</span>
+                    </div>
+                    <div class="timer-separator">:</div>
+                    <div class="timer-block">
+                        <span id="gm-hours" class="timer-num">00</span>
+                        <span class="timer-label">HRS</span>
+                    </div>
+                    <div class="timer-separator">:</div>
+                    <div class="timer-block">
+                        <span id="gm-minutes" class="timer-num">00</span>
+                        <span class="timer-label">MIN</span>
+                    </div>
+                    <div class="timer-separator">:</div>
+                    <div class="timer-block">
+                        <span id="gm-seconds" class="timer-num">00</span>
+                        <span class="timer-label">SEC</span>
+                    </div>
+                </div>
+  
+                <button class="btn btn-outline-light rounded-pill px-4 py-2" disabled>
+                  <i class="fa-solid fa-rocket me-2"></i> View Live Demo (Soon)
+                </button>
+              </div>
+  
+              <div class="col-md-6 h-100">
+                <div class="gradmate-visual h-100 d-flex align-items-center justify-content-center bg-darker position-relative overflow-hidden">
+                  
+                  <div class="mockup-window border border-secondary rounded-3 bg-dark shadow-lg" style="width: 85%; transform: rotate(-3deg); overflow: hidden;">
+                    
+                    <div class="d-flex gap-2 p-2 border-bottom border-secondary bg-darker position-relative z-2">
+                      <div class="rounded-circle bg-danger" style="width:10px; height:10px;"></div>
+                      <div class="rounded-circle bg-warning" style="width:10px; height:10px;"></div>
+                      <div class="rounded-circle bg-success" style="width:10px; height:10px;"></div>
+                    </div>
+              
+                    <div class="gradmate-slider-stage position-relative" style="min-height: 300px;">
+                        
+                        <img src="Screenshot (203).png" alt="GradMate Dashboard" class="gradmate-slide active img-fluid w-100 h-100 object-fit-cover">
+                        
+                        <img src="Screenshot (204).png" alt="GradMate SIWES" class="gradmate-slide img-fluid w-100 h-100 object-fit-cover">
+                        
+                        <img src="Screenshot (205).png" alt="GradMate Login" class="gradmate-slide img-fluid w-100 h-100 object-fit-cover">
+                        
+                        <img src="Screenshot (206).png" alt="GradMate Mobile" class="gradmate-slide img-fluid w-100 h-100 object-fit-cover">
+                        
+                        <img src="Screenshot (208).png" alt="GradMate Defense" class="gradmate-slide img-fluid w-100 h-100 object-fit-cover">
+              
+                    </div>
+                    
+                  </div>
+              
+                </div>
+              </div>
+              
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Me Section -->
+  <section id="about" class="section-padding bg-darker">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+          <div class="about-image-frame">
+            <img src="+234 816 989 5499 20251228_223121.jpg" alt="Timofe David" class="img-fluid rounded-4">
+            <div class="experience-badge">
+              <span class="number">21</span>
+              <span class="text">Years<br>Old</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 ps-lg-5" data-aos="fade-left">
+          <h2 class="section-title text-start">The Story of <span class="text-gradient">T.S.O</span></h2>
+          <div class="line-dec ms-0 mb-4"></div>
+          
+          <p class="lead text-white">I am Timofe Segun-Ojo David, a tech enthusiast driven by the belief that technology exists to make human life faster, easier, and better.</p>
+          
+          <p class="into-you">
+            My journey began in 2022, fueled by a fascination with efficiency. Since then, it has been a path of significant growth. Every challenge—like my first 30-hour hackathon—has only strengthened my resolve to build resilient systems.
+          </p>
+          
+          <p class="into-you">
+            My vision is a "Four-Pillar Specialization." I don't just want to code; I am architecting a career across <strong>Managerial Tech</strong> (Ops/PM), <strong>Developer Tech</strong> (Frontend/IoT), <strong>Educational Tech</strong>, and <strong>Entertainment Tech</strong>. When I'm not building systems, you'll find me immersed in the world of ideas, watching Anime, or playing competitive Video Games.
+          </p>
+          
+          <div class="row mt-4 g-3">
+            <div class="col-6 col-md-3">
+              <div class="branch-card"><i class="fas fa-briefcase"></i><span>Managerial</span></div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="branch-card"><i class="fas fa-code"></i><span>Developer</span></div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="branch-card"><i class="fas fa-gamepad"></i><span>Entertainment</span></div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="branch-card"><i class="fas fa-graduation-cap"></i><span>Educational</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specialization (Bento Grid) -->
+  <section id="specialization" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">My Specialization</h2>
+        <div class="line-dec"></div>
+      </div>
+
+      <div class="bento-grid">
+        <!-- Technical PM -->
+        <div class="bento-card span-2" data-aos="fade-up">
+          <div class="icon-box"><i class="fas fa-tasks"></i></div>
+          <h3>Technical Project Management</h3>
+          <p>Leading cross-functional teams and managing timelines efficiently.</p>
+          <div class="tags">
+            <span>ClickUp</span><span>Asana</span><span>Trello</span><span>Jira</span>
+          </div>
+        </div>
+
+        <!-- IoT -->
+        <div class="bento-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="d-flex justify-content-between align-items-start">
+            <div class="icon-box"><i class="fas fa-network-wired"></i></div>
+            <span class="badge border border-warning text-warning bg-transparent" style="font-size: 0.7rem;">
+              <i class="fas fa-spinner fa-spin me-1"></i> Leveling Up
+            </span>
+          </div>
+          
+          <h3>IoT Development</h3> <p>Connecting sensors & devices for real-time automation.</p>
+          <div class="tags">
+            <span>Node-RED</span><span>AWS IoT</span><span>Arduino</span><span>TinkerCAD</span>
+          </div>
+        </div>
+
+        <!-- Operations -->
+        <div class="bento-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon-box"><i class="fas fa-cogs"></i></div>
+          <h3>Operations Management</h3>
+          <p>Optimizing workflows using data-driven strategies.</p>
+          <div class="tags">
+            <span>Odoo</span><span>Tableau</span><span>Miro</span>
+          </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="bento-card span-2" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon-box"><i class="fas fa-code"></i></div>
+          <h3>Front-End Development</h3>
+          <p>Building responsive and interactive web interfaces.</p>
+          <div class="tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span>
+          </div>
+        </div>
+
+        <!-- Data Entry -->
+        <div class="bento-card span-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="d-flex flex-wrap align-items-center justify-content-between">
+            <div>
+              <div class="icon-box"><i class="fas fa-database"></i></div>
+              <h3>Data Entry & Documentation</h3>
+              <p>Accurate handling of clinical and organizational data.</p>
+            </div>
+            <div class="tags text-end mt-3 mt-md-0">
+              <span>Excel (Advanced)</span><span>MS Access</span><span>CDM+</span><span>MS Word</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section-padding bg-darker">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Education</h2>
+        <div class="line-dec"></div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="fade-up">
+          <div class="education-card p-4 rounded-4 border border-secondary bg-dark position-relative overflow-hidden">
+            
+            <i class="fas fa-graduation-cap position-absolute text-secondary opacity-10" style="font-size: 10rem; right: -20px; bottom: -20px; opacity: 0.05;"></i>
+            
+            <div class="d-flex align-items-center gap-4 position-relative z-1">
+              <div class="uni-icon bg-primary text-white rounded-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 60px; height: 60px; font-size: 1.8rem;">
+                <i class="fas fa-university"></i>
+              </div>
+              
+              <div>
+                <span class="badge bg-warning text-dark fw-bold mb-2" style="font-size: 0.7rem;">IN VIEW (2028)</span>
+                <h3 class="h4 text-white mb-1">B.Sc. Technology Education</h3>
+                <p class="text-muted mb-0">University of Lagos (UNILAG)</p>
+                
+                <p class="text-white-50 small mt-2 mb-0">
+                  <i class="fas fa-star text-warning me-1"></i> Current Standing: <strong>Second Class Upper Division</strong>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Infinite Skills Marquee -->
+  <section class="py-4 bg-darker border-top border-bottom border-dark">
+    <div class="marquee">
+      <div class="marquee-content">
+        <!-- Duplicate items for seamless loop -->
+        <div class="tech-item"><i class="fab fa-html5"></i> HTML5</div>
+        <div class="tech-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+        <div class="tech-item"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="tech-item"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+        <div class="tech-item"><i class="fab fa-aws"></i> AWS IoT</div>
+        <div class="tech-item"><i class="fab fa-trello"></i> Trello</div>
+        <div class="tech-item"><i class="fas fa-table"></i> Excel</div>
+        <div class="tech-item"><i class="fab fa-jira"></i> Jira</div>
+        <div class="tech-item"><i class="fas fa-project-diagram"></i> Node-Red</div>
+        <div class="tech-item"><i class="fab fa-html5"></i> HTML5</div>
+        <div class="tech-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+        <div class="tech-item"><i class="fab fa-js"></i> JavaScript</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline -->
+  <section id="experience" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Experience</h2>
+        <div class="line-dec"></div>
+      </div>
+
+      <div class="timeline">
+
+           <!-- Job 2 -->
+           <div class="timeline-item left" data-aos="fade-right">
+            <div class="timeline-content">
+              <span class="date">Nov 2025 – Present</span>
+              <h4>Campus Ambassador</h4>
+              <span class="company">Cowrywise</span>
+              <p>Bridging Finance as an ambassador on unilag campus</p>
+            </div>
+          </div>
+
+        <!-- Job 1 -->
+                <div class="timeline-item right" data-aos="fade-left">
+            <div class="timeline-content">
+              <span class="date">Nov 2025 – Present</span>
+              <h4>Campus Ambassador </h4>
+              <span class="company">Wale University</span>
+              <p>Stands as abridge of information on the theme: improving Nigeria Education on my campus in the University</p>
+            </div>
+          </div>
+          <!-- Job 2 -->
+        <div class="timeline-item left" data-aos="fade-right">
+          <div class="timeline-content">
+            <span class="date">Sep 2025 – Present</span>
+            <h4>Technical Project Manager</h4>
+            <span class="company">TheRetina Labs (Part-Time)</span>
+            <p>Acting as the project planner for the enhancement of TheRetina Os under TReam B </p>
+          </div>
+        </div>
+        <!-- Job 3 -->
+        <div class="timeline-item right" data-aos="fade-left">
+          <div class="timeline-content">
+            <span class="date">Feb 2025 – Present</span>
+            <h4>Data Entry Operator</h4>
+            <span class="company">FGC Anthony (Part-Time)</span>
+            <p>Managing a church database system handling recording and report of the church data</p>
+          </div>
+        </div>
+        <!-- Job 4 -->
+        <div class="timeline-item left" data-aos="fade-right">
+          <div class="timeline-content">
+            <span class="date">Sep 2023 – Present</span>
+            <h4>Computer Teacher</h4>
+            <span class="company">Ola & Ayo Nur/Pry School</span>
+            <p>Teaching computer fundamentals, introducing students to Word, Excel, and Scratch programming basics.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Soft Skills Section -->
+  <section id="soft-skills" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">Human Intelligence</h2>
+        <div class="line-dec"></div>
+        <p class="mt-3 text-muted">Proven leadership and interpersonal capabilities.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Communication -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up">
+          <div class="soft-skill-card">
+            <div class="skill-icon"><i class="fas fa-comments"></i></div>
+            <h4>Communication</h4>
+            <p>Proven as <strong>UNILAG Course Rep</strong> and within FGC Anthony leadership.</p>
+          </div>
+        </div>
+        <!-- Team Coordination -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="soft-skill-card">
+            <div class="skill-icon"><i class="fas fa-users-cog"></i></div>
+            <h4>Team Coordination</h4>
+            <p>Demonstrated through organizational roles at <strong>FGC Anthony</strong>.</p>
+          </div>
+        </div>
+        <!-- Reporting -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="soft-skill-card">
+            <div class="skill-icon"><i class="fas fa-file-contract"></i></div>
+            <h4>Detailed Reporting</h4>
+            <p>Expertise in event documentation and post-activity analysis.</p>
+          </div>
+        </div>
+        <!-- Approachability -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="soft-skill-card">
+            <div class="skill-icon"><i class="fas fa-handshake"></i></div>
+            <h4>Approachability</h4>
+            <p>Known for building easy connections at <strong>UNILAG</strong> and FGC.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  
+  <!-- Tool Stack Section -->
+<section id="tools" class="section-padding bg-darker">
+  <div class="container">
+    <div class="section-header text-center mb-5" data-aos="fade-up">
+      <h2 class="section-title">Digital <span class="text-gradient">Toolbox</span></h2>
+      <div class="line-dec"></div>
+      <p class="mt-3 text-muted">The professional software I use to manage, build, and collaborate.</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Category 1: Management & Operations -->
+      <div class="col-lg-4" data-aos="fade-up">
+        <div class="tool-category-card">
+          <h3 class="h5 mb-4 text-primary"><i class="fas fa-tasks me-2"></i> Management & Ops</h3>
+          <div class="tool-list">
+            <div class="tool-item">
+              <div class="tool-info">
+                <img src="https://cdn.worldvectorlogo.com/logos/clickup.svg" alt="ClickUp" class="tool-logo">
+                <div>
+                  <h6>ClickUp</h6>
+                  <span>Advanced Workflow</span>
+                </div>
+              </div>
+            </div>
+            <div class="tool-item">
+              <div class="tool-info">
+                <i class="fab fa-trello tool-icon text-info"></i>
+                <div>
+                  <h6>Trello / Asana</h6>
+                  <span>Agile Tracking</span>
+                </div>
+              </div>
+            </div>
+            <div class="tool-item">
+              <div class="tool-info">
+                <i class="fas fa-file-excel tool-icon text-success"></i>
+                <div>
+                  <h6>MS Office / Odoo</h6>
+                  <span>Data & ERP</span>
+                </div>
+              </div>
+            </div>
+            <div class="tool-item">
+              <div class="tool-info">
+                <img src="https://cdn.worldvectorlogo.com/logos/miro-2.svg" alt="Miro" class="tool-logo">
+                <div>
+                  <h6>Miro</h6>
+                  <span>Whiteboarding</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category 2: Development & IoT -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="tool-category-card">
+          <h3 class="h5 mb-4 text-primary"><i class="fas fa-code me-2"></i> Development & IoT</h3>
+          <div class="tool-list">
+            <div class="tool-item">
+              <div class="tool-info">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="VS Code" class="tool-logo">
+                <div>
+                  <h6>VS Code</h6>
+                  <span>Primary IDE</span>
+                </div>
+              </div>
+            </div>
+            <div class="tool-item">
+              <div class="tool-info">
+                <i class="fab fa-github tool-icon text-white"></i>
+                <div>
+                  <h6>GitHub</h6>
+                  <span>Version Control</span>
+                </div>
+              </div>
+            </div>
+            <div class="tool-item">
+              <div class="tool-info">
+                <i class="fas fa-microchip tool-icon text-warning"></i>
+                <div>
+                  <h6>Arduino / Tinkercad</h6>
+                  <span>IoT Simulation</span>
+                </div>
+              </div>
+            </div>
+            <div class="tool-item">
+              <div class="tool-info">
+                <i class="fas fa-project-diagram tool-icon text-danger"></i>
+                <div>
+                  <h6>Node-RED</h6>
+                  <span>Logic Architecture</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category 3: Collaboration & Workspace -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="tool-category-card">
+          <h3 class="h5 mb-4 text-primary"><i class="fas fa-users me-2"></i> Collaboration</h3>
+          <div class="tool-list">
+            <div class="tool-item">
+              <div class="tool-info">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_Logo_2018–present.svg" alt="Teams" class="tool-logo">
+                <div>
+                  <h6>MS Teams</h6>
+                  <span>Primary Workspace</span>
+                </div>
+              </div>
+            </div>
+            <div class="tool-item">
+              <div class="tool-info">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Google_Maps_icon_2020.svg" alt="Workspace" class="tool-logo" style="filter: hue-rotate(180deg);">
+                <div>
+                  <h6>Google Workspace</h6>
+                  <span>Documentation</span>
+                </div>
+              </div>
+            </div>
+            <div class="tool-item">
+              <div class="tool-info">
+                <i class="fas fa-video tool-icon text-primary"></i>
+                <div>
+                  <h6>Zoom / Meet</h6>
+                  <span>Video Conferences</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Projects -->
+  <section id="projects" class="section-padding bg-darker">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="line-dec"></div>
+        <p class="mt-3 text-muted">Click on a card to view case study details.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal1">
+            <div class="project-header">
+              <span class="badge reviewed">Reviewed</span>
+              <div class="project-icon"><i class="fas fa-external-link-alt"></i></div>
+            </div>
+            <h5>School Website</h5>
+            <p>A responsive front end website for a primary school in Nigeria.</p>
+            <div class="tech-tags-mini">
+              <span>HTML</span><span>CSS</span><span>JS</span><span>Bootstrap</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal2">
+             <div class="project-header">
+              <span class="badge completed">Completed</span>
+              <div class="project-icon"><i class="fas fa-external-link-alt"></i></div>
+            </div>
+            <h5>Database Update Project</h5>
+            <p>Updated and verified a church database information system.</p>
+            <div class="tech-tags-mini">
+              <span>ClickUp</span><span>Excel</span><span>Ms Doc</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal3">
+             <div class="project-header">
+              <span class="badge in-progress">In Progress</span>
+              <div class="project-icon"><i class="fas fa-external-link-alt"></i></div>
+            </div>
+            <h5>PM Enhancement</h5>
+            <p>Managing an internal enhancement project at TheRetina Labs.</p>
+            <div class="tech-tags-mini">
+              <span>ClickUp</span><span>Excel</span><span>Word</span>
+            </div>
+          </div>
+        </div>
+
+         <!-- Project 4 -->
+         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal4">
+             <div class="project-header">
+              <span class="badge completed">Completed</span>
+              <div class="project-icon"><i class="fas fa-external-link-alt"></i></div>
+            </div>
+            <h5>Portfolio Website</h5>
+            <p>Personal portfolio showcasing skills, projects, and certifications.</p>
+            <div class="tech-tags-mini">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Creative Media & Design Section -->
+<section id="design" class="section-padding bg-darker">
+  <div class="container">
+    <div class="section-header text-center mb-5" data-aos="fade-up">
+      <h2 class="section-title">Creative <span class="text-gradient">Media & Design</span></h2>
+      <div class="line-dec"></div>
+    </div>
+
+    <div class="row align-items-center g-5">
+      <!-- Text Side: Your Identity as a Designer -->
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="badge-custom mb-3">Graphic Design & Social Management</div>
+        <h3 class="text-white mb-4">I am a <span class="text-primary">Graphic Designer</span> specializing in visual communication.</h3>
+        <p class="text-white-50 mb-4">
+          With over a year of experience, I bridge the gap between ideas and visuals. I focus on creating high-impact **flyers, countdown series, and social media content** that drive engagement. 
+        </p>
+        <p class="text-white-50 mb-4">
+          I currently lead the digital presence for <span class="text-white">FGC Anthony Teens</span>, managing their social media accounts and designing all publicity materials to maintain a consistent and professional brand voice.
+        </p>
+        
+        <div class="design-skills mb-4">
+            <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="tool-icon-sm"><i class="fas fa-vector-square"></i></div>
+                <div>
+                    <h6 class="mb-0 text-white">CorelDRAW</h6>
+                    <small class="text-muted">Professional Vector & Layout Design</small>
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+                <div class="tool-icon-sm"><i class="fas fa-th-large"></i></div>
+                <div>
+                    <h6 class="mb-0 text-white">Canva</h6>
+                    <small class="text-muted">Agile Social Media Content Creation</small>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Image Side: Full Flyer Showcase -->
+      <div class="col-lg-7" data-aos="fade-left">
+        <div class="flyer-showcase-container">
+            <h5 class="text-muted small text-uppercase mb-4 letter-spacing-2">Featured Work (Full View)</h5>
+            
+            <div class="full-flyer-list">
+                <!-- Flyer 1 -->
+                <div class="full-flyer-item mb-4">
+                    <img src="cooperate 377.png" alt="Event Flyer" class="img-fluid rounded-4 shadow-lg border-design">
+                    <div class="flyer-caption mt-3">
+                        <span class="text-primary small fw-bold">EVENT FLYER</span>
+                        <p class="text-white-50 small">High-resolution publicity design created in CorelDRAW.</p>
+                    </div>
+                </div>
+
+                <!-- Flyer 2 -->
+                <div class="full-flyer-item mb-4">
+                    <img src="cont 32 tpn.png" alt="Countdown Flyer" class="img-fluid rounded-4 shadow-lg border-design">
+                    <div class="flyer-caption mt-3">
+                        <span class="text-primary small fw-bold">COUNTDOWN SERIES</span>
+                        <p class="text-white-50 small">Strategic social media series to build event anticipation.</p>
+                    </div>
+                </div>
+
+                <!-- Add more flyers here by copying the full-flyer-item div -->
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Hackathon Section -->
+  <section id="hackathon" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">Hackathons & Sprints</h2>
+        <div class="line-dec"></div>
+        <p class="mt-3 text-muted">Intensive rapid-prototyping competitions.</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10" data-aos="zoom-in">
+          <div class="hackathon-featured-card">
+            <div class="row g-0">
+              <!-- Left: Visual/Badge -->
+              <div class="col-md-4 hack-visual d-flex flex-column align-items-center justify-content-center">
+                <div class="sprint-timer">
+                  <span class="hours">30</span>
+                  <span class="label">Hours</span>
+                </div>
+                <div class="team-name mt-3">
+                  <small class="text-uppercase tracking-widest">Team</small>
+                  <h4 class="text-white">Edumatrix</h4>
+                </div>
+              </div>
+              
+              <!-- Right: Content -->
+              <div class="col-md-8">
+                <div class="card-body p-4 p-lg-5">
+                  <div class="d-flex justify-content-between align-items-start mb-3">
+                    <div>
+                      <span class="badge bg-primary mb-2">TOS Hub Gen AI Hackathon</span>
+                      <h3 class="h2 text-white">Finger Pay</h3>
+                    </div>
+                    <div class="hack-status">
+                      <span class="live-indicator"><i class="fas fa-circle"></i> Prototype Live</span>
+                    </div>
+                  </div>
+                  
+                  <p class="hack-description">
+                    Developed a <strong>Biometric AI Financial System</strong> during a 30-hour virtual sprint. Finger Pay leverages AI-driven security and biometric authentication to streamline digital transactions. As part of team Edumatrix, I focused on bridging the technical logic with a seamless user experience.
+                  </p>
+
+                  <div class="hack-tech-stack mb-4">
+                    <span><i class="fas fa-brain"></i> Gen AI</span>
+                    <span><i class="fas fa-fingerprint"></i> Biometrics</span>
+                    <span><i class="fab fa-react"></i> Frontend</span>
+                    <span><i class="fas fa-shield-alt"></i> Fintech</span>
+                  </div>
+
+                  <div class="d-flex gap-3">
+                    <a href="https://fingerpay-matrix.vercel.app/" target="_blank" class="btn btn-primary-custom btn-sm">
+                      View Prototype <i class="fas fa-external-link-alt ms-1"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Section -->
+  <section id="services" class="section-padding bg-darker">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">How Can I <span class="text-gradient">Help You?</span></h2>
+        <div class="line-dec"></div>
+        <p class="mt-3 text-muted">High-impact services tailored for businesses and startups.</p>
+      </div>
+  
+      <div class="row g-4">
+        
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="service-card-modern accent-orange">
+            <div class="card-glow"></div>
+            <div class="service-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h4 class="text-white mb-3">Web Development</h4>
+            <p class="text-muted mb-4">I build fast, responsive, and modern websites that convert visitors into customers. Perfect for schools and portfolios.</p>
+            <ul class="list-unstyled text-muted small mb-0">
+              <li><i class="fas fa-check-circle"></i> Landing Pages & Portfolios</li>
+              <li><i class="fas fa-check-circle"></i> Front-end Websites</li>
+              <li><i class="fas fa-check-circle"></i> Responsive Dashboards</li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card-modern accent-blue">
+            <div class="card-glow"></div>
+            <div class="service-icon">
+              <i class="fas fa-tasks"></i>
+            </div>
+            <h4 class="text-white mb-3">Technical PM & Ops</h4>
+            <p class="text-muted mb-4">I organize chaos. I set up workflows, manage sprints, and ensure your team hits their deadlines without burnout.</p>
+            <ul class="list-unstyled text-muted small mb-0">
+              <li><i class="fas fa-check-circle"></i> ClickUp Workspace Setup</li>
+              <li><i class="fas fa-check-circle"></i> Planning & Coordination</li>
+              <li><i class="fas fa-check-circle"></i> Documentation & Reporting</li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card-modern accent-green">
+            <div class="card-glow"></div>
+            <div class="service-icon">
+              <i class="fas fa-pen-nib"></i>
+            </div>
+            <h4 class="text-white mb-3">Creative Design</h4>
+            <p class="text-muted mb-4">Visual storytelling that grabs attention. I create professional flyers and social assets that maintain your brand voice.</p>
+            <ul class="list-unstyled text-muted small mb-0">
+              <li><i class="fas fa-check-circle"></i> Event Flyers & Posters</li>
+              <li><i class="fas fa-check-circle"></i> Social Media Content Kits</li>
+              <li><i class="fas fa-check-circle"></i> Various</li>
+            </ul>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Section -->
+  <section id="leadership" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Leadership <span class="text-gradient">Journey</span></h2>
+        <div class="line-dec"></div>
+        <p class="mt-3 text-muted">Roles where I learned to AURA FARM, organize, and lead.</p>
+      </div>
+      
+      <div class="row g-4">
+        
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <div class="lead-card-modern accent-gold">
+            <div class="lead-aura"></div>
+            <div class="d-flex align-items-start gap-3 position-relative z-1">
+              <div class="lead-icon-modern"><i class="fas fa-crown"></i></div>
+              <div>
+                <h4 class="text-white mb-1">President</h4>
+                <p class="text-white-50 small mb-2">FGC Anthony Teens Church</p>
+                <span class="lead-badge"><i class="far fa-clock me-1"></i> July 2024 – Present</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="lead-card-modern accent-gold">
+            <div class="lead-aura"></div>
+            <div class="d-flex align-items-start gap-3 position-relative z-1">
+              <div class="lead-icon-modern"><i class="fas fa-user-tie"></i></div>
+              <div>
+                <h4 class="text-white mb-1">Vice President</h4>
+                <p class="text-white-50 small mb-2">FGC Anthony Teens Church</p>
+                <span class="lead-badge"><i class="far fa-calendar-check me-1"></i> 2023 – 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="lead-card-modern accent-purple">
+            <div class="lead-aura"></div>
+            <div class="d-flex align-items-start gap-3 position-relative z-1">
+              <div class="lead-icon-modern"><i class="fas fa-camera"></i></div>
+              <div>
+                <h4 class="text-white mb-1">Media Lead</h4>
+                <p class="text-white-50 small mb-2">FGC Anthony Teens Church</p>
+                <span class="lead-badge"><i class="far fa-check-circle me-1"></i> 2022 – 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="lead-card-modern accent-blue">
+            <div class="lead-aura"></div>
+            <div class="d-flex align-items-start gap-3 position-relative z-1">
+              <div class="lead-icon-modern"><i class="fas fa-map-marked-alt"></i></div>
+              <div>
+                <h4 class="text-white mb-1">District Coordinator</h4>
+                <p class="text-white-50 small mb-2">FGC Anthony District</p>
+                <span class="lead-badge"><i class="fas fa-bullhorn me-1"></i> 2024 – Present</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="lead-card-modern accent-blue">
+            <div class="lead-aura"></div>
+            <div class="d-flex align-items-start gap-3 position-relative z-1">
+              <div class="lead-icon-modern"><i class="fas fa-book-reader"></i></div>
+              <div>
+                <h4 class="text-white mb-1">Asst. Gen. Secretary</h4>
+                <p class="text-white-50 small mb-2">TESS - UNILAG</p>
+                <span class="lead-badge"><i class="fas fa-pen-fancy me-1"></i> Sept 2024 – Present</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="lead-card-modern accent-green">
+            <div class="lead-aura"></div>
+            <div class="d-flex align-items-start gap-3 position-relative z-1">
+              <div class="lead-icon-modern"><i class="fas fa-users"></i></div>
+              <div>
+                <h4 class="text-white mb-1">Course Rep</h4>
+                <p class="text-white-50 small mb-2">Technology Education</p>
+                <span class="lead-badge"><i class="fas fa-vote-yea me-1"></i> 2024 Set</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="lead-card-modern accent-gold">
+            <div class="lead-aura"></div>
+            <div class="d-flex align-items-start gap-3 position-relative z-1">
+              <div class="lead-icon-modern"><i class="fas fa-user-graduate"></i></div>
+              <div>
+                <h4 class="text-white mb-1">Head Boy</h4>
+                <p class="text-white-50 small mb-2">Ola & Ayo Nur/Pry School</p>
+                <span class="lead-badge"><i class="fas fa-history me-1"></i> 2016 Set</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certification" class="section-padding bg-darker">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Certifications</h2>
+        <div class="line-dec"></div>
+      </div>
+      <!-- Current Learning Section -->
+      <div class="row justify-content-center mb-5" data-aos="fade-up">
+        <div class="col-lg-10">
+          <h5 class="text-muted mb-4 small text-uppercase letter-spacing-2 text-center">Currently in Progress</h5>
+          
+          <div class="row g-4">
+            
+            <!-- In Progress Cert 1 -->
+            <div class="col-md-6">
+              <div class="cert-progress-card">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="cert-icon g"><i class="fab fa-google"></i></div>
+                    <div>
+                      <h6 class="text-white mb-0">Foundations of Project Management</h6>
+                      <small class="text-muted">Google (Coursera)</small>
+                    </div>
+                  </div>
+                  <span class="badge in-progress-pill">In Progress</span>
+                </div>
+                <!-- Progress Bar -->
+                <div class="progress" style="height: 6px; background: #333;">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <small class="text-muted" style="font-size: 0.7rem;">Module 3 of 4</small>
+                  <small class="text-primary" style="font-size: 0.7rem;">65% Completed</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- In Progress Cert 2 -->
+            <div class="col-md-6">
+              <div class="cert-progress-card">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="cert-icon c"><i class="fas fa-network-wired"></i></div>
+                    <div>
+                      <h6 class="text-white mb-0">Architecting Smart IoT Devices</h6>
+                      <small class="text-muted">EIT Digital (Coursera)</small>
+                    </div>
+                  </div>
+                  <span class="badge in-progress-pill">In Progress</span>
+                </div>
+                <!-- Progress Bar -->
+                <div class="progress" style="height: 6px; background: #333;">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <small class="text-muted" style="font-size: 0.7rem;">Module 2 of 5</small>
+                  <small class="text-primary" style="font-size: 0.7rem;">40% Completed</small>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- End Current Learning -->
+      <div class="cert-grid-container">
+        <!-- Cert 1 -->
+        <a href="#" class="cert-badge" data-aos="zoom-in">
+          <div class="cert-icon u"><i class="fas fa-award"></i></div>
+          <div class="cert-text">
+            <h5>Technical Project Management</h5>
+            <span>Udemy, 2025</span>
+          </div>
+        </a>
+        <!-- Cert 2 -->
+        <a href="#" class="cert-badge" data-aos="zoom-in" data-aos-delay="100">
+          <div class="cert-icon u"><i class="fas fa-cogs"></i></div>
+          <div class="cert-text">
+            <h5>Ops Management</h5>
+            <span>Udemy, 2025</span>
+          </div>
+        </a>
+        <!-- Cert 3 -->
+        <a href="#" class="cert-badge" data-aos="zoom-in" data-aos-delay="200">
+          <div class="cert-icon u"><i class="fas fa-wifi"></i></div>
+          <div class="cert-text">
+            <h5>Internet of Things (IoT)</h5>
+            <span>Udemy, 2025</span>
+          </div>
+        </a>
+        <!-- Cert 4 -->
+        <a href="https://www.life-global.org/certificate/004ed859-343c-415d-979e-59978f49dd00" target="_blank" class="cert-badge" data-aos="zoom-in" data-aos-delay="300">
+          <div class="cert-icon hp"><i class="fas fa-people-arrows"></i></div>
+          <div class="cert-text">
+            <h5>Agile Project Mgmt</h5>
+            <span>HP Life, 2025</span>
+          </div>
+        </a>
+        <!-- Cert 5 -->
+        <a href="https://www.life-global.org/certificate/f21aa7f7-8205-42a1-ade7-eede6ea8343b" target="_blank" class="cert-badge" data-aos="zoom-in">
+          <div class="cert-icon hp"><i class="fas fa-boxes"></i></div>
+          <div class="cert-text">
+            <h5>Inventory Management</h5>
+            <span>HP Life, 2025</span>
+          </div>
+        </a>
+        <!-- Cert 6 -->
+        <a href="https://www.life-global.org/certificate/a1d94b10-cbf9-4564-baad-45e2dbb692f3" target="_blank" class="cert-badge" data-aos="zoom-in" data-aos-delay="100">
+          <div class="cert-icon hp"><i class="fas fa-headset"></i></div>
+          <div class="cert-text">
+            <h5>CRM</h5>
+            <span>HP Life, 2025</span>
+          </div>
+        </a>
+        <!-- Cert 7 -->
+        <a href="https://coursera.org/share/b2d4483021cd9d22229effe93fd8c768" target="_blank" class="cert-badge" data-aos="zoom-in" data-aos-delay="200">
+          <div class="cert-icon g"><i class="fas fa-file-excel"></i></div>
+          <div class="cert-text">
+            <h5>PM with Google Sheets</h5>
+            <span>Coursera, 2025</span>
+          </div>
+        </a>
+        <!-- Cert 8 -->
+        <a href="https://coursera.org/share/4ffbf50a15e1e2e172d2880728a40acb" target="_blank" class="cert-badge" data-aos="zoom-in" data-aos-delay="300">
+          <div class="cert-icon c"><i class="fas fa-check-double"></i></div>
+          <div class="cert-text">
+            <h5>PM with ClickUp</h5>
+            <span>Coursera, 2025</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="awards" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Honors & Awards</h2>
+        <div class="line-dec"></div>
+      </div>
+  
+      <div class="row g-4 justify-content-center">
+        
+        <div class="col-md-6 col-lg-5" data-aos="fade-right">
+          <div class="soft-skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-crown"></i>
+            </div>
+            <h4>Teenager of the Year</h4>
+            <p class="text-primary fw-bold mb-2" style="font-size: 0.85rem;">FGC Anthony Teens (2025)</p>
+            <p class="text-muted">Awarded for exemplary character, consistent leadership, and impactful community service among youth.</p>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-lg-5" data-aos="fade-left">
+          <div class="soft-skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-vote-yea"></i>
+            </div>
+            <h4>Student Choice: Best Rep</h4>
+            <p class="text-primary fw-bold mb-2" style="font-size: 0.85rem;">TVESA / Department Recognition (2024)</p>
+            <p class="text-muted">Voted as the "Best Course Rep (Fresher Edition)" by the student body for outstanding coordination of the 100-level cohort.</p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="contact-wrapper" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h3>Let's Work Together</h3>
+            <p class="text-muted">I'm currently available for freelance work or full-time positions. Send me a message and let's discuss your project.</p>
+            
+            <div class="contact-info mt-5">
+              <div class="item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h6>Email Me</h6>
+                  <p>timofesegunojo@gmail.com</p>
+                </div>
+              </div>
+              <div class="item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h6>Call Me</h6>
+                  <p>+234 816 989 5499</p>
+                </div>
+              </div>
+              <div class="item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h6>Location</h6>
+                  <p>Lagos, Nigeria</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links mt-4">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          
+          <div class="col-lg-6">
+            <!-- Formspree Form (Replace MQKVRAJR with your actual ID if needed) -->
+            <form action="https://formspree.io/f/mqkvrajr" method="POST" class="contact-form">
+              <div class="mb-4">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="mb-4">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="mb-4">
+                <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary-custom w-100 py-3">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Timofe Segun-Ojo. Built with <i class="fas fa-code text-primary"></i> & <i class="fas fa-heart text-danger"></i>.</p>
+    </div>
+  </footer>
+
+  <!-- 4. WhatsApp Float -->
+  <a href="https://wa.me/2348169895499" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- 5. Back to Top Button -->
+  <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+  <!-- ============================================
+       PROJECT MODALS (CASE STUDIES)
+  ============================================= -->
+
+ <!-- Modal 1: School Website -->
+<div class="modal fade" id="projectModal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content custom-modal">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-white">School Website Development</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <!-- Images Column -->
+          <div class="col-md-5">
+            <div class="row g-2">
+              <div class="col-6 col-md-12">
+                <div class="modal-img-slot">
+                  <img src="Screenshot (211).png" alt="Home Page" class="img-fluid rounded">
+                  <span class="img-label">Homepage</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-12">
+                <div class="modal-img-slot">
+                  <img src="Screenshot (212).png" alt="Mobile View" class="img-fluid rounded">
+                  <span class="img-label">Mobile View</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Text Column -->
+          <div class="col-md-7">
+            <h6 class="text-primary small fw-bold">OVERVIEW</h6>
+            <p class="text-white small">A responsive website for a primary school to digitize their admission process and news updates.</p>
+            
+            <h6 class="text-primary small fw-bold mt-3">WORK DONE</h6>
+            <ul class="text-white-50 small ps-3">
+              <li>Built layout using <strong>Bootstrap 5</strong>.</li>
+              <li>Optimized images for fast loading.</li>
+              <li>Linked admission forms for easy access.</li>
+            </ul>
+
+            <div class="tech-box-simple mt-3">
+                <span class="badge bg-dark border border-secondary">HTML</span>
+                <span class="badge bg-dark border border-secondary">CSS</span>
+                <span class="badge bg-dark border border-secondary">JS</span>
+            </div>
+            <div class="mt-4">
+              <a href="#" class="btn btn-primary-custom btn-sm">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2: Database Update -->
+<div class="modal fade" id="projectModal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content custom-modal">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-white">Church Database Update</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <div class="col-md-5">
+            <div class="row g-2">
+              <div class="col-6 col-md-12">
+                <div class="modal-img-slot">
+                  <img src="excel-data.jpg" alt="Excel Sheet" class="img-fluid rounded">
+                  <span class="img-label">Data Cleaning</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-12">
+                <div class="modal-img-slot">
+                  <img src="clickup-tasks.jpg" alt="ClickUp Board" class="img-fluid rounded">
+                  <span class="img-label">Progress Tracking</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <h6 class="text-primary small fw-bold">THE TASK</h6>
+            <p class="text-white small">Updating and organizing 500+ membership records to ensure accurate church reporting.</p>
+            
+            <h6 class="text-primary small fw-bold mt-3">ACTIONS</h6>
+            <ul class="text-white-50 small ps-3">
+              <li>Cleaned duplicates using <strong>Excel</strong>.</li>
+              <li>Managed data entry tasks in <strong>ClickUp</strong>.</li>
+              <li>Standardized contact information formats.</li>
+            </ul>
+            <div class="tech-box-simple mt-3">
+                <span class="badge bg-dark border border-secondary">MS Excel</span>
+                <span class="badge bg-dark border border-secondary">ClickUp</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3: PM Enhancement -->
+<div class="modal fade" id="projectModal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content custom-modal">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-white">TReam B Process Management</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <div class="col-md-5">
+            <div class="row g-2">
+              <div class="col-6 col-md-12">
+                <div class="modal-img-slot">
+                  <img src="Screenshot (194).png" alt="Sprint View" class="img-fluid rounded">
+                  <span class="img-label">Sprint Board</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-12">
+                <div class="modal-img-slot">
+                  <img src="Screenshot (195).png" alt="Docs" class="img-fluid rounded">
+                  <span class="img-label">Dashboard</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <h6 class="text-primary small fw-bold">ROLE: TECHNICAL PM</h6>
+            <p class="text-white small">Supporting TheRetina Labs in organizing developer tasks and improving project timelines.</p>
+            
+            <h6 class="text-primary small fw-bold mt-3">CONTRIBUTIONS</h6>
+            <ul class="text-white-50 small ps-3">
+              <li>Structured **ClickUp** spaces for TReam B.</li>
+              <li>Ensured clear task descriptions for devs.</li>
+              <li>Monitored weekly task completion rates.</li>
+            </ul>
+            <div class="tech-box-simple mt-3">
+                <span class="badge bg-dark border border-secondary">ClickUp</span>
+                <span class="badge bg-dark border border-secondary">Planning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4: Portfolio Website -->
+<div class="modal fade" id="projectModal4" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content custom-modal">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-white">Personal Portfolio Build</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <div class="col-md-5">
+            <div class="row g-2">
+              <div class="col-6 col-md-12">
+                <div class="modal-img-slot">
+                  <img src="Screenshot (209).png" alt="Code" class="img-fluid rounded">
+                  <span class="img-label">Development</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-12">
+                <div class="modal-img-slot">
+                  <img src="Screenshot (210).png" alt="UI Design" class="img-fluid rounded">
+                  <span class="img-label">UI Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <h6 class="text-primary small fw-bold">GOAL</h6>
+            <p class="text-white small">Creating a professional hub to display my work in Project Management and Tech.</p>
+            
+            <h6 class="text-primary small fw-bold mt-3">FEATURES</h6>
+            <ul class="text-white-50 small ps-3">
+              <li>Mobile-first responsive design.</li>
+              <li>Smooth scroll animations (AOS).</li>
+              <li>Active contact form via Formspree.</li>
+            </ul>
+            <div class="tech-box-simple mt-3">
+                <span class="badge bg-dark border border-secondary">HTML/CSS</span>
+                <span class="badge bg-dark border border-secondary">JS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
