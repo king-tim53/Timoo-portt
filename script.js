@@ -122,8 +122,8 @@ if(hackCard) {
 
 /* --- GRADMATE LAUNCH COUNTDOWN --- */
 (function() {
-  // 1. Set the Launch Date (March 25, 2026)
-  const launchDate = new Date("March 25, 2026 00:00:00").getTime();
+  // 1. Set the Launch Date (April 11, 2026)
+  const launchDate = new Date("April 11, 2026 00:00:00").getTime();
 
   // 2. Update the count down every 1 second
   const timerInterval = setInterval(function() {
